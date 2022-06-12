@@ -1,3 +1,8 @@
 .App {
     margin: 0;
 }
+
+.Posts {
+    background-color: blue;
+    margin-top: 20px;
+}

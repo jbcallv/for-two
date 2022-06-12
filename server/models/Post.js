@@ -1,12 +1,16 @@
 import mongoose from 'mongoose'
 
 const PostSchema = new mongoose.Schema({
+    title: {
+        type: String,
+        required: true
+    },
     caption: {
         type: String,
         required: true
     },
     datePosted: {
-        type: Date,
+        type: String, // change to Date later
         required: true
     },
     postedBy: {
